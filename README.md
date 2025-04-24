@@ -1,46 +1,40 @@
-# Generador de Dataset de Personajes de Anime
+# Portfolio de Proyectos de Programación
 
-Este proyecto genera un dataset aleatorio de personajes de anime con diferentes características y niveles de poder, utilizando la librería Faker.
+Este repositorio contiene una colección de proyectos de programación que demuestran diferentes habilidades y técnicas en el desarrollo de software. Cada proyecto está organizado en su propia carpeta y tiene su propia documentación específica.
 
-## Características
+## 🚀 Proyectos
 
-- Genera 100 personajes con atributos aleatorios
-- Incluye características como nombre, edad, elemento, rol, poder base, poder máximo, etc.
-- Genera un reporte de análisis de datos usando ydata-profiling
-- Guarda los datos en formato CSV
+### 1. Generador de Dataset de Personajes de Anime
+Ubicación: `l_ydata_profiling/`
+- Generador de datasets aleatorios de personajes de anime
+- Utiliza Faker para generar datos
+- Incluye análisis de datos con ydata-profiling
+- [Ver documentación detallada](l_ydata_profiling/README.md)
 
-## Requisitos
+## 📁 Estructura del Repositorio
 
-```bash
-pip install pandas faker ydata-profiling
+```
+HOME/
+├── l_ydata_profiling/     # Proyecto de generación de datasets de anime
+└── [futuros proyectos]    # Más proyectos se irán añadiendo aquí
 ```
 
-## Uso
+## 🎯 Propósito
 
-1. Instala las dependencias:
-```bash
-pip install -r requirements.txt
-```
+Este repositorio sirve como portfolio personal y como recurso educativo para la comunidad de LinkedIn. Cada proyecto está diseñado para demostrar diferentes aspectos de la programación y el desarrollo de software.
 
-2. Ejecuta el script:
-```bash
-python main.py
-```
+## 📈 Actualizaciones
 
-3. Se generarán dos archivos:
-   - `personajes_anime.csv`: Dataset con los personajes generados
-   - `reporte_anime.html`: Reporte de análisis de datos
+Este repositorio se actualizará periódicamente con nuevos proyectos y mejoras. Cada proyecto incluirá:
+- Documentación detallada
+- Ejemplos de uso
+- Requisitos y dependencias
+- Código fuente comentado
 
-## Estructura del Dataset
+## 🤝 Contribuciones
 
-El dataset incluye las siguientes columnas:
-- nombre: Nombre del personaje
-- edad: Edad del personaje (15-50 años)
-- elemento: Afinidad elemental
-- rol: Rol en la historia
-- poder_base: Poder base del personaje (1-100)
-- poder_maximo: Poder máximo alcanzable (100-1000)
-- experiencia: Nivel de experiencia (1-1000)
-- altura_cm: Altura en centímetros
-- peso_kg: Peso en kilogramos
-- poder_total: Suma de poder base y máximo 
+Las sugerencias y contribuciones son bienvenidas. Si tienes ideas para mejorar algún proyecto o quieres añadir uno nuevo, no dudes en contactarme a través de LinkedIn.
+
+## 📝 Nota
+
+Este README se irá actualizando incrementalmente a medida que se añadan nuevos proyectos al repositorio. 
